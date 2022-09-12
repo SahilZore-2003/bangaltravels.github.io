@@ -1,0 +1,55 @@
+.name{
+    margin-top: 20px;
+}
+.date{
+    margin-left: 20px;
+}
+.service{
+ margin-top: 50px;
+}
+.contacts{
+    margin:30px 15px;
+}
+.row{
+    margin-left: auto;
+}
+.second-driver{
+    margin: 20px auto;
+}
+
+.price{
+    width:100%;
+    height: 200px;
+    /* border: 2px solid red; */
+}
+.ticket-head{
+    text-align: center;
+    background-color: rgb(7, 7, 54);
+    color: white;
+}
+#user1{
+    color:red;
+}
+
+
+
+
+#date-input{
+    width: 70%;
+}
+
+.timing-bus{
+    margin-bottom: 5%;
+}
+
+#myTable{
+    border: 2px solid black;
+    text-align: center;
+    margin: auto;
+    width: 100%;;
+}
+
+#myTable th{
+    
+    padding: 5px 5px;
+}

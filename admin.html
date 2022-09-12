@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bangal travels admin page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 style="text-align: center; ">admin page</h1>
+    <hr>
+
+
+
+
+    <script>
+
+
+
+
+       let name =  localStorage.getItem("name");
+
+      let mobile =   localStorage.getItem("mobile number");
+
+     let pickup =    localStorage.getItem("pickup-point");
+
+      let drop =   localStorage.getItem("drop-point");
+        
+       let people =      localStorage.getItem("how many peoples");
+
+      let time =  localStorage.getItem("bus timing");
+
+      let date =  localStorage.getItem("date");
+
+        document.write(`<b>name:</b>${name}<br> <b>Mobile-no:</b>${mobile}<br><b>pickup-point:</b>${pickup}<br><b>drop-point:</b>${drop}<br><b>peoples:</b>${people}<br><b>time:</b>${time}<br><b>Date:</b>${date}<br><hr>`);
+
+    </script>
+
+    <!-- <script src="script.js"></script> -->
+</body>
+
+</html>
